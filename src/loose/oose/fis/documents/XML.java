@@ -15,7 +15,9 @@ public class XML extends Document {
         for (String cuvant : continut) {
             if (cuvant.charAt(0) != '<' || cuvant.charAt(cuvant.length() - 1) != '>') {
                 res[pos] = cuvant;
+
                 pos=pos+2;
+
             }
         }
 
